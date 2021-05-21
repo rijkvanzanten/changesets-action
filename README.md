@@ -1,3 +1,9 @@
+This fork contains one (big) change:
+
+Instead of a release/tag _per package_, it'll generate _one release_ for the whole monorepo.
+
+---
+
 # Changesets Release Action
 
 This action for [Changesets](https://github.com/atlassian/changesets) creates a pull request with all of the package versions updated and changelogs updated and when there are new changesets on master, the PR will be updated. When you're ready, you can merge the pull request and you can either publish the packages to npm manually or setup the action to do it for you.
